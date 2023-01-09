@@ -44,11 +44,13 @@ body{
 #pager-screen{
     background-color: #9EC4B3;
     color: #000000;
+    overflow: hidden;
 }
 
 #phone-screen{
     color: #ffffff;
     background-color: #444444;
+    overflow: hidden;
 }
 
 .screens{
