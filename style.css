@@ -54,6 +54,7 @@ body{
 .screens{
     padding: 2rem 0.5rem;
     font-size: 3.1rem;
+    height: 113px;
     max-width: 737px;
     width: 100%;
 }
