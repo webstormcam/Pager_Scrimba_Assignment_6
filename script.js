@@ -10,9 +10,11 @@ phoneScreen.innerHTML = " "
 })
 
 pageUser.addEventListener('click',function(){
-
-    pagerScreen.innerHTML=phoneScreen.innerHTML
-    pageSound.play()
+    setTimeout(function(){
+        pagerScreen.innerHTML=phoneScreen.innerHTML
+        pageSound.play()  
+    },2000)
+  
 })
 
 document.addEventListener('click',(e)=>{
